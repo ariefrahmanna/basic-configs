@@ -11,9 +11,7 @@
       {
         "argsIgnorePattern": "^_"
       }
-    ],
-    "sonarjs/no-duplicate-string": "off",
-    "sonarjs/cognitive-complexity": ["warn", 50]
+    ]
   },
   "overrides": [
     {
