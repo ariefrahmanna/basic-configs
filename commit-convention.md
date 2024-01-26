@@ -52,7 +52,7 @@ Must be one of the following:
 * __build__: Changes that affect the build system or external dependencies (e.g. gulp, broccoli, npm)
 * __ci__: Changes to the CI configuration files and scripts (e.g. CircleCi, SauceLabs)
 
-Other prefixes are up to your discretion. For example `style`, `types`, `release`, `dx`, `workflow`, `chore`, etc...
+Other prefixes are up to your discretion. For example  `types`, `release`,  `workflow`,  etc...
 
 ### Scope
 
