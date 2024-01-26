@@ -41,11 +41,13 @@ This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 
 Must be one of the following:
 
+* __feat__: A new feature
+* __chore__: Changes that do not relate to a fix or feature and don't modify src or test files (e.g. updating dependencies)
 * __fix__: A bug fix
 * __refactor__: A code change that neither fixes a bug nor adds a feature
-* __feat__: A new feature
 * __perf__: A code change that improves performance
 * __test__: Adding missing tests or correcting existing tests
+* __style__: Changes that do not affect the meaning of the code, such as formatting or style improvements.
 * __docs__: Documentation only changes
 * __build__: Changes that affect the build system or external dependencies (e.g. gulp, broccoli, npm)
 * __ci__: Changes to the CI configuration files and scripts (e.g. CircleCi, SauceLabs)
