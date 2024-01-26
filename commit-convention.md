@@ -47,10 +47,10 @@ Must be one of the following:
 * __refactor__: A code change that neither fixes a bug nor adds a feature
 * __perf__: A code change that improves performance
 * __test__: Adding missing tests or correcting existing tests
-* __style__: Changes that do not affect the meaning of the code, such as formatting or style improvements.
+* __style__: Changes that do not affect the meaning of the code, (e.g. formatting or style improvements)
 * __docs__: Documentation only changes
 * __build__: Changes that affect the build system or external dependencies (e.g. gulp, broccoli, npm)
-* __ci__: Changes to the CI configuration files and scripts (e.g. CircleCi, SauceLabs)
+* __ci__: Changes to the CI configuration files and scripts (e.g. CircleCI, SauceLabs)
 
 Other prefixes are up to your discretion. For example  `types`, `release`,  `workflow`,  etc...
 
