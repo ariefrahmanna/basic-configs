@@ -15,7 +15,6 @@ A commit message consists of a **header**, **body** and **footer**.  The header 
 
 The **header** is mandatory and the **scope** of the header is optional.
 
-
 **Example**:
 
 ```
@@ -36,7 +35,6 @@ revert: "feat(compiler): add 'comments' option"
 This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 ```
 
-
 ### Type
 
 Must be one of the following:
@@ -51,6 +49,7 @@ Must be one of the following:
 * __docs__: Documentation only changes
 * __build__: Changes that affect the build system or external dependencies (e.g. gulp, broccoli, npm)
 * __ci__: Changes to the CI configuration files and scripts (e.g. CircleCI, SauceLabs)
+* __wip__: Work in progress, indicating ongoing work that is not ready for finalization
 
 Other prefixes are up to your discretion. For example  `types`, `release`,  `workflow`,  etc...
 
