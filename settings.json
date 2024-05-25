@@ -1,0 +1,35 @@
+{
+    /* FOR VSCODE */
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "'FiraMono Nerd Font', 'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.minimap.autohide": true,
+    "explorer.compactFolders": false,
+    "files.associations": { ".env*": "dotenv" },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "window.commandCenter": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+
+    /* FOR EXTENSIONS */
+    "C_Cpp.debugShortcut": false,
+    "python.terminal.activateEnvironment": false,
+    "vim.normalModeKeyBindings": [
+        { "before": ["<C-v>"], "after": ["<esc>", "p"] },
+        { "before": ["<C-j>"], "after": ["<C-d>"] },
+        { "before": ["<C-k>"], "after": ["<C-u>"] },
+        { "before": ["<C-l>"], "after": ["e"] },
+        { "before": ["<C-h>"], "after": ["b"] },
+        { "before": ["<C-Tab>"], "after": ["gt"] }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["<D-S-j>"], "after": [":t.<CR>"] },
+        { "before": ["<D-S-k>"], "after": [":t-<CR>"] }
+    ],
+    "vim.visualModeKeyBindings": [
+        { "before": ["<C-c>"], "after": ["y"] },
+        { "before": ["<C-x>"], "after": ["x"] },
+        { "before": ["Tab"], "after": [">"] },
+        { "before": ["<S-Tab>"], "after": ["<"] }
+    ]
+}
