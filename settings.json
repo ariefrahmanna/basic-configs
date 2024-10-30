@@ -1,19 +1,18 @@
 {
     /* FOR VSCODE */
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontFamily": "'FiraMono Nerd Font', 'Fira Code', Consolas, 'Courier New', monospace",
     "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.minimap.enabled": false,
-    "explorer.compactFolders": false,
-    "files.associations": { ".env*": "dotenv" },
+    "editor.rulers": [80],
+    "explorer.copyRelativePathSeparator": "/",
+    "files.associations": { "*.css": "tailwindcss", ".env*": "dotenv" },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "window.commandCenter": false,
-    "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.customLabels.patterns": {
         "**/app/**/page.tsx": "${dirname}/page.tsx",
         "**/pages/**/index.vue": "${dirname}/index.vue"
     },
+    "workbench.iconTheme": "vscode-icons",
 
     /* FOR EXTENSIONS */
     // "[go]": {
@@ -43,8 +42,5 @@
         { "before": ["<C-x>"], "after": ["x"] },
         { "before": ["Tab"], "after": [">"] },
         { "before": ["<S-Tab>"], "after": ["<"] }
-    ],
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    }
+    ]
 }
