@@ -9,6 +9,7 @@
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.customLabels.patterns": {
+        "**/components/**/index.tsx": "${dirname}/index.tsx",
         "**/app/**/page.tsx": "${dirname}/page.tsx",
         "**/pages/**/index.vue": "${dirname}/index.vue"
     },
